@@ -32,4 +32,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
  
  group :test do
    gem 'rspec-rails'
+   gem 'spork'
  end
