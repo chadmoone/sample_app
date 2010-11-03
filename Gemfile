@@ -27,10 +27,10 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # and rake tasks are available in development mode:
  group :development do
    gem 'rspec-rails'
-   #gem 'webrat'
  end
  
  group :test do
    gem 'rspec-rails'
+   gem 'webrat'
    gem 'spork'
  end
