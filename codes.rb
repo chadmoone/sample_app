@@ -9,7 +9,7 @@ class Codes
   
   def gen_all()
     l = []
-    150.times { |n|  l << gen() }
+    37.times { |n|  l << gen() }
     l
   end
 end
