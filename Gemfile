@@ -34,4 +34,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
    gem 'rspec-rails'
    gem 'webrat', '0.7.1'
    gem 'spork'
+   gem 'factory_girl_rails'
  end
