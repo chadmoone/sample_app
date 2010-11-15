@@ -131,7 +131,6 @@ describe User do
       it "should return fals if the passwords don't match" do
         @user.has_password?("invalid").should be_false
       end
-      
     end
     
     
@@ -152,8 +151,6 @@ describe User do
       it "should return the user on an email_password match" do
         User.authenticate(@attr[:email], @attr[:password]).should == @user
       end
-      
-      
     end
     
     
